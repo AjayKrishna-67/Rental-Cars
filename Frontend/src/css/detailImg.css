@@ -1,0 +1,17 @@
+.sideimage img{
+   width: 500px;
+   height: 300px;
+   margin-bottom: 10px ;
+   margin-left: 200px;
+  
+  animation-duration: 4s;
+  /* margin-bottom: 20px; */
+  
+}
+@media only screen and (max-width:1024px) {
+  .sideimage img{
+    width: 400px;
+    height: 250px;
+    margin-left: 70px;
+ }
+}

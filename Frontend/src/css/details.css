@@ -1,0 +1,47 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: end; 
+    /* height: 80vh;  */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 15%;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 255px;
+    
+    
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+  
+
+
+

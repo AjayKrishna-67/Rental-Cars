@@ -1,0 +1,74 @@
+.car_cat{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.economy img{
+    width: 360px;
+    height: 400px;
+}
+.economy:hover .carshort{
+    opacity: 1;
+    transition: .5s linear;
+}
+
+.family:hover .carshort{
+    opacity: 1;
+    transition: .5s linear;
+}
+
+.family img{
+    height: 400px;
+    width: 360px;
+    transition: 2s;
+    position: relative;
+}
+
+.luxury:hover .carshort{
+    opacity: 1;
+   
+    transition: .5s linear;
+}
+
+
+.luxury img{
+    height: 400px;
+    width: 360px;
+}
+.car_name{
+    margin-top: 45%;
+    text-align: center;
+    font-weight:bolder;
+    font-size:250%;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    color:#f96d00 ;
+   
+}
+.carshort{
+    display: flex;
+    background-color:beige;
+    position: absolute;
+    width: 360px;
+    opacity: 0;
+}
+.carshort:hover{
+    opacity: 1;
+}
+.carshort p{
+    margin-top: 9px;
+    font-size: 70%;
+    color: black;
+    margin-left: 8px;
+}
+.carshort button{
+    margin-top: 7px;
+    font-size: 70%;
+    padding: 2px 2px 2px 2px;
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+}
